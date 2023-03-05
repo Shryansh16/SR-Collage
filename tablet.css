@@ -1,0 +1,136 @@
+@media screen and (max-width:950px ) and ( min-width:500px) {
+
+    .box2 img{
+        height: 111vh;
+        width: 100%;
+    }
+    .box2 h1{
+        font-size: 45px;
+        font-weight: 400px;
+        top: 45vh;
+        max-width: 700px;
+    }
+    .box2 p {
+        top: 63vh;
+    }
+    .coursebox{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.ourcourse{
+        font-size: 28px;
+        display:flex;
+        
+        font-weight: 500;
+    
+        
+        
+        
+
+    }
+    .ourcourse p{
+        
+        width: 222px;
+    }
+    .ourcourse img{
+    
+        height: 33px;
+    
+        margin-left: 76px;
+        margin-right: 14px;
+
+        
+    }
+    .course{
+        
+        font-size: 28px;
+    }
+    .course p{
+        padding-left: 30px;
+        font-weight: 600;
+    }
+.newsandeventcontainer p{
+    font-size: 32px;
+    
+    
+}
+.slider img{
+    height: 41vh;
+}
+.next{
+    right: 120px;
+}
+.prev{
+    left: 120px;
+}
+.recentnews{
+    margin-top: 14vh;
+}
+.recent P{
+    font-size: 32px;
+}
+.para1{
+    margin-top: 7vh;
+    margin-left: 6vh;
+    font-size: 26px;
+}
+.whysrcollagecontainer{
+    margin-top: 20vh;
+    margin-left: 14vh;
+    margin-right: 14vh;
+    margin-bottom: 16vh;
+}
+.whysrcollage{
+    padding: 8px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 23px;
+    width: 350px;
+    padding-left: 40px;
+    
+}
+.whysrcollage p{
+    font-size: 32px;
+
+}
+.whyp{
+    margin: 28px;
+    
+}
+.whyp p{
+    font-size: 19px;
+}
+.emoji img{
+    height: 17vh;
+}
+.sendmessage-container{
+    
+       margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+
+    
+    
+}
+.send p{
+    margin-top: 34px;
+    font-size: 28px;
+}
+.input{
+    font-size: 16px;
+    padding: 18px;
+    padding-right: 10px;
+}
+.input2{
+    font-size: 16px;
+    padding: 18px;
+    padding-right: 270px;
+    padding-bottom: 64px;
+}
+.btn{
+    margin-left: 380px;
+}
+.adress img{
+    width: 27vw;
+}
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width:950px) {
+    
+.hamburger{
+    display: block;
+}
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.navbar nav ul {
+    position: fixed;
+    right: -110%;
+    /* left: 0px; */
+    top :80px;
+    gap: 0px;
+    flex-direction: column;
+    background-color:black;
+    width: 100vw;
+    text-align: center;
+    transition: 0.3s;
+    height: 100vh;
+
+}
+.navbar  nav ul li {
+    padding-top: 35px;
+    padding-bottom: 14px;
+}
+.navbar nav ul li a:hover{
+    color: cyan;
+    background-color: black;
+    border: none;
+}
+
+.navbar nav ul li {
+    margin: 16px 0;
+}
+.navbar nav ul.active{
+    right:  0px;
+}
+}

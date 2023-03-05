@@ -1,0 +1,277 @@
+@media screen and (max-width:480px) {
+    .navbarcontainer img {
+        height: 35px;
+        margin-left: 26px;
+        margin: 10px;
+        margin-right: 15px;
+
+    }
+
+    .navbar {
+        height: 50px;
+
+        padding-right: 25px;
+
+
+    }
+
+
+    .box2 img {
+        width: auto;
+        height: 111.1vh;
+    }
+
+    .box2 h1 {
+        top: 25vh;
+        font-size: 40px;
+
+    }
+
+    .box2 p {
+        top: 45vh;
+        font-size: 13px;
+
+    }
+
+    .coursebox {
+        display: block;
+        margin: 20px;
+        font-size: 20px;
+        padding-left: 40px;
+
+    }
+
+    .ourcourse {
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+
+    .ourcourse img {
+        display: none;
+    }
+
+    .course {
+        font-size: 19px;
+        margin-top: 14px;
+
+    }
+
+    .aboutus img {
+        /* width: auto; */
+        height: 60vh;
+    }
+
+    .newsandeventcontainer {
+        margin-top: 8vh;
+        margin-bottom: 5vh;
+    }
+
+    .newsandeventcontainer p {
+
+        font-size: 28px;
+
+
+
+
+    }
+
+    .slider img {
+        height: 34vh;
+        width: 82vw;
+
+
+
+    }
+
+    .arrow {
+        font-size: 35px;
+    }
+
+    .prev {
+        left: 60px;
+    }
+
+    .next {
+        right: 60px;
+    }
+
+    .recentnews {
+        margin-top: 6vh;
+    }
+
+    .recent p {
+        font-size: 28px;
+    }
+
+    .para1 {
+        margin-top: 4vh;
+        margin-left: 4vh;
+        font-size: 12px;
+
+
+    }
+
+    .whysrcollagecontainer {
+        margin-top: 8vh;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        margin-bottom: 5vh;
+        padding: 5px;
+    }
+
+    .whysrcollage {
+
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+
+        padding-left: 20px;
+        width: 220px;
+
+
+    }
+
+    .whysrcollage p {
+        font-size: 20px;
+
+    }
+
+    .whyp {
+        margin: 18px;
+        margin-left: 22px;
+
+
+    }
+
+    .whyp p {
+
+        font-size: 12px;
+
+        padding: 6px;
+
+    }
+
+    .emoji {
+
+        margin: 14px;
+    }
+
+    .emoji img {
+        height: 10vh;
+    }
+
+    .sendmessage-container {
+        display: block;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        margin-bottom: 4vh;
+        background-color: #364156;
+
+    }
+
+    .send {
+        background-color: white;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 0px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+    }
+
+    .send p {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 0px;
+
+        margin: 12px;
+
+
+
+
+    }
+
+    .input {
+        font-size: 12px;
+        padding: 12px;
+
+        margin: 3px;
+        margin-bottom: 8px;
+        border-radius: 10px;
+    }
+
+    .input2 {
+        font-size: 12px;
+        padding: 12px;
+        padding-right: 198px;
+        padding-bottom: 50px;
+
+        margin: 3px;
+        margin-bottom: 8px;
+        border-radius: 10px;
+
+    }
+
+    .btn {
+        border-radius: 11px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 6px;
+        padding-bottom: 3px;
+        margin: 8px;
+        margin-top: 4px;
+        margin-left: 262px;
+    }
+
+    .btnp {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .adress {
+        background-color: #364156;
+    }
+
+    .adress img {
+        display: none;
+    }
+
+    .adress2 img {
+        display: block;
+        width: 86.5vw;
+    }
+
+    .end {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .end p {
+        padding-left: 3px;
+        padding-right: 3px;
+
+    }
+
+    .right {
+        padding: 4px;
+        margin-left: 17px;
+    }
+
+    .right img {
+        height: 14px;
+        width: 14px;
+    }
+
+    .left {
+        margin-right: 17px;
+        padding: 4px;
+    }
+
+    .left img {
+        height: 14px;
+    }
+}

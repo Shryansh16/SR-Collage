@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://srcollege.epizy.com/?i=1#ourcourses -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>SR College</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://srcollege.epizy.com/Images/Favicon.png" type="image/x-icon">
+
+    <!-- Font - Montserrat (font-family: 'Montserrat', sans-serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./adress2_files/css2" rel="stylesheet">
+
+    <!-- Font - Krona One (font-family: 'Krona One', sans-serif)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./adress2_files/css2(1)" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./adress2_files/styles.css">
+
+    <!-- Media Queries  -->
+    <link rel="stylesheet" href="./adress2_files/mediaqueries.css">
+
+    <!-- Ajax  -->
+    <script src="./adress2_files/jquery.min.js.download"></script>
+</head>
+
+<body onload="preLoader()" class="">
+    <!-- (0.) Loader Section -->
+    <div id="loader" style="display: none;">
+        <div class="loaderContainer">
+            <div id="box"></div>
+            <div id="shadow"></div>
+        </div>
+    </div>
+
+    <!-- (1.) Navigation Bar Section -->
+    <div class="navigationBar_Container" id="navigationBar_Container">
+        <div class="navigationBar_Logo">
+            <a href="http://srcollege.epizy.com/index.html"><img src="./adress2_files/SR College Logo.png" alt="SR College Logo" class="unselectable" draggable="false" (dragstart)="false"></a>
+        </div>
+        <div class="navigationBar_BlackContainer">
+            <input type="checkbox" id="check" name="checkbox" value="hideNavigationLinks">
+            <label for="check" class="checkbtn" id="menubtnHs">
+                <img src="./adress2_files/Menu.png" class="navigationBar_MenuButton">
+            </label>
+            <label for="check" class="checkbtn_close">
+                <img src="./adress2_files/Close.png" id="closebtnHs" class="navigationBar_MenuCloseButton">
+            </label>
+            <ul class="navigationBar_LinksList">
+                <li class="navigationBar_Link1"><a href="http://srcollege.epizy.com/?i=1#ourcourses" onclick="hideNavigationLinks()">courses</a></li>
+                <li class="navigationBar_Link2"><a href="http://srcollege.epizy.com/?i=1#aboutus" onclick="hideNavigationLinks()">about us</a></li>
+                <li class="navigationBar_Link3">
+                    <a href="http://srcollege.epizy.com/?i=1#newsandevents" onclick="hideNavigationLinks()">news and events</a>
+                </li>
+                <li class="navigationBar_Link4">
+                    <a href="http://srcollege.epizy.com/?i=1#facilities" onclick="hideNavigationLinks()">facilities</a>
+                </li>
+                <li class="navigationBar_Link5">
+                    <a href="http://srcollege.epizy.com/?i=1#contactus" onclick="hideNavigationLinks()">contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- (2.) Hero Section -->
+    <div class="hero_Container">
+        <div class="hero_Background"><img src="./adress2_files/Home Page Image.jpg"></div>
+        <div class="hero_TextContainer">
+            <div class="hero_Heading">boost your knowledge<br>and gain career</div>
+            <div class="hero_QuoteContainer">
+                <div class="hero_SubHeading">“education is the movement from darkness to
+                    light”
+                </div>
+                <div class="hero_Author">- allan bloom</div>
+            </div>
+        </div>
+        <div class="hero_ScrollDownButtonContainer">
+            <a href="http://srcollege.epizy.com/?i=1#ourcourses">
+                <div class="hero_ScrollDownButton"></div>
+            </a>
+        </div>
+    </div>
+
+    <!-- (3.) Our Courses Section -->
+    <div class="ourCourses_Container" id="ourcourses">
+        <div class="ourCourses_TextContainer">
+            <div class="ourCourses_Heading">our courses</div>
+            <div class="ourCourses_Arrow"><img src="./adress2_files/fast-forward.png" alt="Arrow" class="unselectable" draggable="false" (dragstart)="false"></div>
+            <div class="ourCourses_CoursesList">
+                <ul>
+                    <li class="ourCourses_CoursesListItem1">bca</li>
+                    <li class="ourCourses_CoursesListItem2">mca</li>
+                    <li class="ourCourses_CoursesListItem3">pgdca</li>
+                    <li class="ourCourses_CoursesListItem4">iti</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- (4.) About Us Section -->
+    <div class="aboutUs_Container">
+        <div class="aboutUs_Background">
+            <img src="./adress2_files/About Us Image.jpg" class="unselectable" draggable="false" (dragstart)="false">
+        </div>
+        <div class="aboutUs_TextContainer" id="aboutus">
+            <div class="aboutUs_Heading">
+                about us
+            </div>
+            <div class="aboutUs_Content">
+                Founded in 2020 by Dr. Ajay Soni (PHD in Philosophy, MCA,
+                SR College has come a long way from its beginnings in Bhilwara, Rajasthan.
+                When Ajay Soni first started out, his passion for keen knowledge in IT field
+                drove them to do tons of hardwork
+                so that SR College can offer you the up to the mark education.
+                We now serve students all over the world, and are thrilled that we're able
+                to turn our passion into our own website.<br><br>
+                Sincerely,<br>
+                DR. AJAY SONI
+            </div>
+        </div>
+    </div>
+
+    <!-- (5.) News and Events Section -->
+    <div class="newsAndEvents_Container" id="newsandevents">
+        <div class="newsAndEvents_Heading">
+            news and events
+        </div>
+        <div class="newsAndEvents_CarouselContainer">
+            <div class="newsAndEvents_CarouselSlider">
+                <div class="newsAndEvents_CarouselSlides fade" style="display: none;">
+                    <img src="./adress2_files/Scroll (2).jpg">
+                </div>
+
+                <div class="newsAndEvents_CarouselSlides fade" style="display: none;">
+                    <img src="./adress2_files/Scroll (3).jpg">
+                </div>
+
+                <div class="newsAndEvents_CarouselSlides fade" style="display: block;">
+                    <img src="./adress2_files/Scroll (1).jpg">
+                </div>
+            </div>
+            <div class="newsAndEvents_CarouselComponents">
+                <div class="newsAndEvents_CarouselButtonContainer">
+                    <a class="newsAndEvents_CarouselPreviousButton" onclick="plusSlides(-1)"> <img src="./adress2_files/Group 8.png"></a>
+                    <a class="newsAndEvents_CarouselNextButton" onclick="plusSlides(1)"><img src="./adress2_files/Group 5.png"></a>
+                </div>
+                <div class="newsAndEvents_CarouselDotsContainer">
+                    <span class="newsAndEvents_CarouselDot" onclick="currentSlides(1)"></span>
+                    <span class="newsAndEvents_CarouselDot" onclick="currentSlides(2)"></span>
+                    <span class="newsAndEvents_CarouselDot active" onclick="currentSlides(3)"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- (6.) Recent News Section -->
+    <div class="recentNews_Container">
+        <div class="recentNews_Heading">
+            recent news
+        </div>
+        <div class="recentNews_Content">
+            <ul>
+                <li>Admission for BCA, MCA, PGDCA and ITI started for session 2021-2020.</li>
+                <li>Result of BCA (Session 2020-2021) available on the official university website.</li>
+                <li>National seminar on Covid-19 will be held on upcoming 22 july 2021.</li>
+                <li>Relaxation in the last date of submission in view of COVID-19 pandemic.</li>
+                <li>Candidates List of RET-2017 Qualified and Remaining of RET-2016.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- (7.) Facilities Section -->
+    <div class="facilities_Container" id="facilities">
+        <div class="facilities_TextContainer">
+            <div class="facilities_Heading">why SR college?</div>
+            <div class="facilities_BottomContainer">
+                <div class="facilities_Content">
+                    <ul>
+                        <li>Follows Co-education system with discipline.</li>
+                        <li>400 acre well settled infrastructure with boys and girls separate hostels.</li>
+                        <li>transportation facility for 20km radius in bhilwara city.</li>
+                        <li>scollarship For briliant and needy students.</li>
+                        <li>full a.C. campus with proper ambiation.</li>
+                        <li>in campus placement in every year.</li>
+                        <li>high profile well experienced mentors and professors.</li>
+                    </ul>
+                </div>
+                <div class="facilities_Emoji">
+                    <img src="./adress2_files/Smile.png" class="unselectable" draggable="false" (dragstart)="false">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- (8.) Contact Us Section -->
+    <div class="contactUs_Container" id="contactus">
+        <div class="contactUs_Module">
+            <div class="contactUs_Form">
+                <form action="https://formspree.io/f/xpzkbvjk" method="POST" id="contactUs_FormContainer">
+                    <div class="contactUs_FormHeading">send us a message</div>
+                    <div class="contactUs_FormUppperContainer">
+                        <div class="contactUs_FormFieldGroup">
+                            <div class="contactUs_FormField">
+                                <input type="text" id="contactUs_Form_FirstName" name="First Name" placeholder="First Name" required="">
+                            </div>
+                            <div class="contactUs_FormField">
+                                <input type="email" id="contactUs_Form_EmailAddress" name="Email Address" placeholder="Email Address" required="">
+                            </div>
+                        </div>
+                        <div class="contactUs_FormFieldGroup">
+                            <div class="contactUs_FormField">
+                                <input type="text" id="contactUs_Form_LastName" name="Last Name" placeholder="Last Name" required="">
+                            </div>
+                            <div class="contactUs_FormField">
+                                <input type="text" id="contactUs_Form_PhoneNumber" name="Phone Number" placeholder="Phone Number" maxlength="10" required="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="contactUs_FormBottomContainer">
+                        <textarea name="Message" id="contactUs_Form_Message" cols="30" rows="5" placeholder="Enter Your Query Here..."></textarea>
+                    </div>
+                    <button type="submit" class="contactUs_FormButton">Send<img src="./adress2_files/send.png" class="contactUs_FormButtonSubmitIcon"></button>
+                </form>
+            </div>
+
+            <div class="contactUs_Information">
+                <div class="contactUs_InformationHeader">Contact Information</div>
+                <div class="contactUs_InformationBody">
+                    <div class="contactUs_InformationBodyItemsGroupContainer">
+                        <div class="contactUs_InformationBodyItemsImageContainer"><img src="./adress2_files/call.svg"></div>
+                        <div class="contactUs_InformationBodyItems">+91 88520-50240</div>
+                    </div>
+                    <div class="contactUs_InformationBodyItemsGroupContainer">
+                        <div class="contactUs_InformationBodyItemsImageContainer"><img src="./adress2_files/pin (1).svg"></div>
+                        <div class="contactUs_InformationBodyItems">A-28/55, Laxmi
+                            Nagar, Harni
+                            Mahadev Road, Bhilwara,
+                            Rajasthan. (311001)</div>
+                    </div>
+                    <div class="contactUs_InformationBodyItemsGroupContainer">
+                        <div class="contactUs_InformationBodyItemsImageContainer"><img src="./adress2_files/email (1).svg">
+                        </div>
+                        <div class="contactUs_InformationBodyItems">org.ajaysoni@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactUs_Form_Status">
+            <h6></h6>
+        </div>
+
+    </div>
+
+    <!-- (9.) Footer Section -->
+    <div class="footer_Container">
+        <div class="footer_Items">Our <a target="_blank" href="http://srcollege.epizy.com/ourteam.html">Team </a>	
+            🤟
+        </div>
+        <div class="footer_Items">designed by <a target="_blank" href="https://www.instagram.com/the.ajaysoni">ajay
+                soni</a> with ❤️
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="./adress2_files/scripts.js.download"></script>
+
+
+</body></html>
